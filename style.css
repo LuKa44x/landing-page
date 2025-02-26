@@ -7,9 +7,22 @@ a {
     text-decoration: none;
 }
 
+a:link {
+    color: #e5e7eb;
+
+}
+
 a:visited {
     color: #e5e7eb;
 
+}
+
+.strong{
+    font-weight: bold;
+}
+
+p{
+    margin: 12px 0px;
 }
 
 .logo{
@@ -19,8 +32,8 @@ a:visited {
     border-bottom-left-radius: 20%;
 }
 
-.border{
-    border-radius: 20%;
+.header_radius{
+    border-radius: 10%;
 }
 
 .top_right_links, .header p{
@@ -54,7 +67,6 @@ a:visited {
 .planche_content{
     display: flex;
     justify-content: space-between;
-    /* gap:64px; */
     margin:86px 0px;
 }
 
@@ -75,6 +87,41 @@ a:visited {
     border:none;
     padding:8px 24px;
 }
+
+
+
+.title_progression{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin:36px;
+}
+
+.progression_content{
+    display: flex;
+    justify-content: center;
+    gap:56px;
+    margin-bottom:96px;
+}
+
+.img_block_progression{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: large;
+    color: #1F2937;
+}
+
+.img_reflex{
+    transform: scaleX(-1);
+}
+
+.progression_border{
+    border:3px solid #3882F6;
+    border-radius: 20%;
+}
+
 
 .header, .footer{
     background-color: #1f2937;
