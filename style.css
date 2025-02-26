@@ -122,6 +122,14 @@ p{
     border-radius: 20%;
 }
 
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding:96px 300px;
+    text-align:center;
+}
 
 .header, .footer{
     background-color: #1f2937;
