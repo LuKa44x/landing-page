@@ -144,8 +144,9 @@ p{
     font-style: italic;
     color: #1F2937;
     padding:96px 0px;
-    text-align:center;
-}
+    text-align:center; 
+    max-width: 1000px;;
+} 
 
 
 
