@@ -169,7 +169,11 @@ p{
     background-color: #1f2937;
 }
 
-
+.footer{
+    text-align: center;
+    color: white;
+    padding:32px;
+}
 
 
 
