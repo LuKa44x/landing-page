@@ -18,7 +18,7 @@ a:visited {
 }
 
 .strong{
-    font-weight: bold;
+    font-weight: 900;
 }
 
 p{
@@ -129,6 +129,40 @@ p{
     color: #1F2937;
     padding:96px 300px;
     text-align:center;
+}
+
+.signup_container{
+    margin:82px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.signup_box{
+    background-color: #3882F6;
+    color: white;
+    font-size:18px;
+    padding:50px 100px;
+    border-radius: 20px;
+    min-width: 800px;
+}
+
+.signup_item{
+    font-size: 18px;
+    display: flex;
+    align-items:baseline;
+}
+
+.signup_button{
+    background-color: #3882F6;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    padding:8px 24px;
+    border: 2px solid white;
+    margin-left: auto;
 }
 
 .header, .footer{
