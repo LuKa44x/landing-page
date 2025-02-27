@@ -57,17 +57,23 @@ p{
     gap:48px;
 }
 
+.header_container{
+    display: flex;
+    justify-content: center;
+}
+
 .header{
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
-    padding:12px 300px;
+    padding:12px 400px;
 }
 
 .planche_content{
     display: flex;
     justify-content: space-between;
     margin:86px 0px;
+    gap:92px; /* nel caso di restringimento di pagina rimane lo spazio */
 }
 
 .text_planche_content{
@@ -87,6 +93,7 @@ p{
     border:none;
     padding:8px 24px;
 }
+
 
 
 
@@ -122,14 +129,26 @@ p{
     border-radius: 20%;
 }
 
-.quote{
+
+
+
+
+.quote_container{
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quote{
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    padding:96px 300px;
+    padding:96px 0px;
     text-align:center;
 }
+
+
+
 
 .signup_container{
     margin:82px 0;
@@ -165,9 +184,13 @@ p{
     margin-left: auto;
 }
 
-.header, .footer{
+
+
+.header_container, .footer{
     background-color: #1f2937;
 }
+
+
 
 .footer{
     text-align: center;
